@@ -1,2 +1,2 @@
 ## ERSII-Website
-Eine neugestaltete Version der ERSII-Website, lel
+Eine neugestaltete Version der ERSII-Website
