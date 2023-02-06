@@ -103,9 +103,9 @@
       document.getElementById("info-button-2").className = "";
       document.getElementById("info-button-3").className = "";
       document.getElementById("info-button-" + num).className = "info-button-selected";
-      document.getElementById("info-content-1").setAttribute("hidden", "hidden");
-      document.getElementById("info-content-2").setAttribute("hidden", "hidden");
-      document.getElementById("info-content-3").setAttribute("hidden", "hidden");
+      document.getElementById("info-content-1").setAttribute("hidden");
+      document.getElementById("info-content-2").setAttribute("hidden");
+      document.getElementById("info-content-3").setAttribute("hidden");
       document.getElementById("info-content-" + num).removeAttribute("hidden");
     }
   </script>
@@ -511,11 +511,11 @@ window.ezb = window.eb = {
                 <i class="fas fa-child info-icon"></i>
                 Infos für Schüler
               </div>
-              <div id="info-button-2" class="" onclick="setInfoContent(2)">
-                <i class="fas fa-people info-icon"></i>
+              <div id="info-button-2" onclick="setInfoContent(2)">
+                <i class="fa-solid fa-people info-icon"></i>
                 Infos für Eltern
               </div>
-              <div id="info-button-3" class="" onclick="setInfoContent(3)">
+              <div id="info-button-3" onclick="setInfoContent(3)">
                 <i class="fas fa-chalkboard-user info-icon"></i>
                 Infos zum Schulleben
               </div>
