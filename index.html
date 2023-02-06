@@ -93,8 +93,21 @@
     .info-icon {
       display: block;
       width: 50px;
+      margin: auto;
     }
 	</style>
+  <script>
+    function setInfoContent(num) {
+      document.getElementById("info-button-1").classList.remove("info-button-selected");
+      document.getElementById("info-button-2").classList.remove("info-button-selected");
+      document.getElementById("info-button-3").classList.remove("info-button-selected");
+      document.getElementById("info-button-" + num).addClass("info-button-selected");
+      document.getElementById("info-content-1").setAttribute("hidden", "hidden");
+      document.getElementById("info-content-2").setAttribute("hidden", "hidden");
+      document.getElementById("info-content-3").setAttribute("hidden", "hidden");
+      document.getElementById("info-content-" + num).removeAttribute("hidden");
+    }
+  </script>
 	<script type="application/json" class="joomla-script-options new">{"csrf.token":"90fdbb8c0c912ec594e3c884dedbc70b","system.paths":{"root":"","base":""},"joomla.jtext":{"COM_RSPAGEBUILDER_COUNTDOWN_TIMER_EXPIRED":"Countdown Timer expired.","WARNING":"Warnung","COM_RSPAGEBUILDER_LONG_DAY":"Day","COM_RSPAGEBUILDER_LONG_DAYS":"Days","COM_RSPAGEBUILDER_LONG_HOUR":"Hour","COM_RSPAGEBUILDER_LONG_HOURS":"Hours","COM_RSPAGEBUILDER_LONG_MINUTE":"Minute","COM_RSPAGEBUILDER_LONG_MINUTES":"Minutes","COM_RSPAGEBUILDER_LONG_SECOND":"Second","COM_RSPAGEBUILDER_LONG_SECONDS":"Seconds","COM_RSPAGEBUILDER_SHORT_DAYS":"D","COM_RSPAGEBUILDER_SHORT_HOURS":"H","COM_RSPAGEBUILDER_SHORT_MINUTES":"M","COM_RSPAGEBUILDER_SHORT_SECONDS":"S"}}</script>
 	<script src="/media/jui/js/jquery.min.js?12eacec2196dcb708b35ddbf8fd1dfe2"></script>
 	<script src="/media/jui/js/jquery-noconflict.js?12eacec2196dcb708b35ddbf8fd1dfe2"></script>
@@ -106,7 +119,7 @@
 	<!--[if lt IE 9]><script src="/media/jui/js/html5.js?12eacec2196dcb708b35ddbf8fd1dfe2"></script><![endif]-->
 	<script src="/modules/mod_jux_easy_megamenu/assets/js/stickymenu.js"></script>
 	<script>
-var rspbld_jversion = 3,
+      var rspbld_jversion = 3,
 			rspbld_bversion = 2;
 	</script>
 	<script defer type="text/javascript" src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
@@ -493,20 +506,29 @@ window.ezb = window.eb = {
 					<main id="content" role="main" class="span12">
 					  <!-- Begin Content -->
             <div id="info-buttons">
-              <div class="info-button info-button-selected">
+              <div id="info-button-2" class="info-button info-button-selected" onclick="setInfoContent(1)">
                 <i class="fas fa-child info-icon"></i>
                 Infos für Schüler
               </div>
-              <div class="info-button">
+              <div id="info-button-2" class="info-button" onclick="setInfoContent(2)">
                 <i class="fas fa-people info-icon"></i>
                 Infos für Eltern
               </div>
-              <div class="info-button">
+              <div id="info-button-3" class="info-button" onclick="setInfoContent(3)">
                 <i class="fas fa-chalkboard-user info-icon"></i>
                 Infos zum Schulleben
               </div>
             </div>
             <div id="info-content">
+              <div id="info-content-1">
+                Infos für Schüler
+              </div>
+              <div id="info-content-2">
+                Infos für Eltern
+              </div>
+              <div id="info-content-3">
+                Infos zum Schulleben
+              </div>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum omnis tenetur numquam, aut consequuntur magni sit eos atque magnam tempore voluptatem possimus accusamus minima distinctio eveniet adipisci porro, totam eius nemo odio quae. Qui, eveniet consequuntur. Nesciunt ex adipisci est ad soluta porro ducimus animi, odit tempora necessitatibus placeat maiores modi minus! Vero libero eum, dignissimos qui amet officiis reprehenderit rem tempora error veniam, accusantium alias excepturi adipisci, quaerat quos! Magni facere cum veniam magnam, impedit at atque optio reiciendis? Accusamus laudantium eius, iusto autem voluptatum fugiat, hic possimus pariatur voluptas vero nemo quod cupiditate exercitationem nostrum, illum quasi cumque totam expedita sint odit ipsa dolore. A, inventore sint optio nostrum cum accusamus! Temporibus, voluptates molestias deleniti optio laboriosam quae accusamus, necessitatibus voluptatum ducimus iusto unde quaerat culpa voluptas repudiandae! Harum magni, eum doloremque molestias voluptatum natus magnam, vero praesentium consequuntur hic, fuga reiciendis quibusdam. Consequuntur necessitatibus consequatur beatae, magni velit accusamus? Facere, assumenda aliquam sapiente quaerat nobis modi aspernatur recusandae? Libero deleniti dolorem ipsa nostrum officiis eligendi eos saepe, reiciendis perferendis, quas temporibus animi distinctio soluta aperiam enim sapiente quidem molestias ipsum dignissimos fugit totam commodi. Reprehenderit nihil esse hic at, quae nobis iste quasi ad soluta facilis aperiam.
             </div>
             <!--  End Content  -->
