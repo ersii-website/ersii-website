@@ -100,7 +100,7 @@
 	</style>
   <script>
     function setInfoContent(num) {
-      alert("A");
+      //alert(num);
       document.getElementById("info-button-1").classList.remove("info-button-selected");
       document.getElementById("info-button-2").classList.remove("info-button-selected");
       document.getElementById("info-button-3").classList.remove("info-button-selected");
@@ -109,6 +109,7 @@
       document.getElementById("info-content-2").setAttribute("hidden", "hidden");
       document.getElementById("info-content-3").setAttribute("hidden", "hidden");
       document.getElementById("info-content-" + num).removeAttribute("hidden");
+      alert(num);
     }
   </script>
 	<script type="application/json" class="joomla-script-options new">{"csrf.token":"90fdbb8c0c912ec594e3c884dedbc70b","system.paths":{"root":"","base":""},"joomla.jtext":{"COM_RSPAGEBUILDER_COUNTDOWN_TIMER_EXPIRED":"Countdown Timer expired.","WARNING":"Warnung","COM_RSPAGEBUILDER_LONG_DAY":"Day","COM_RSPAGEBUILDER_LONG_DAYS":"Days","COM_RSPAGEBUILDER_LONG_HOUR":"Hour","COM_RSPAGEBUILDER_LONG_HOURS":"Hours","COM_RSPAGEBUILDER_LONG_MINUTE":"Minute","COM_RSPAGEBUILDER_LONG_MINUTES":"Minutes","COM_RSPAGEBUILDER_LONG_SECOND":"Second","COM_RSPAGEBUILDER_LONG_SECONDS":"Seconds","COM_RSPAGEBUILDER_SHORT_DAYS":"D","COM_RSPAGEBUILDER_SHORT_HOURS":"H","COM_RSPAGEBUILDER_SHORT_MINUTES":"M","COM_RSPAGEBUILDER_SHORT_SECONDS":"S"}}</script>
