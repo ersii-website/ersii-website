@@ -33,26 +33,30 @@
 	<link href="https://ersii.de/modules/mod_jux_easy_megamenu/assets/css/style/custom-134.css" rel="stylesheet" />
 	<style>
 
-	h1, h2, h3, h4, h5, h6, .site-title {
-		font-family: 'Open Sans', sans-serif;
-	}
-	body.site {
-		border-top: 3px solid #097a18;
-		background-color: #ffffff;
-	}
-	a {
-		color: #097a18;
-	}
-	.nav-list > .active > a,
-	.nav-list > .active > a:hover,
-	.dropdown-menu li > a:hover,
-	.dropdown-menu .active > a,
-	.dropdown-menu .active > a:hover,
-	.nav-pills > .active > a,
-	.nav-pills > .active > a:hover,
-	.btn-primary {
-		background: #097a18;
-	}
+    h1, h2, h3, h4, h5, h6, .site-title {
+      font-family: 'Open Sans', sans-serif;
+    }
+    body.site {
+      border-top: 3px solid #097a18;
+      background-color: #ffffff;
+    }
+    a {
+      color: #097a18;
+    }
+    .nav-list > .active > a,
+    .nav-list > .active > a:hover,
+    .dropdown-menu li > a:hover,
+    .dropdown-menu .active > a,
+    .dropdown-menu .active > a:hover,
+    .nav-pills > .active > a,
+    .nav-pills > .active > a:hover,
+    .btn-primary {
+      background: #097a18;
+    }
+
+    .info-button {
+      background-color: red;
+    }
 	</style>
 	<script type="application/json" class="joomla-script-options new">{"csrf.token":"90fdbb8c0c912ec594e3c884dedbc70b","system.paths":{"root":"","base":""},"joomla.jtext":{"COM_RSPAGEBUILDER_COUNTDOWN_TIMER_EXPIRED":"Countdown Timer expired.","WARNING":"Warnung","COM_RSPAGEBUILDER_LONG_DAY":"Day","COM_RSPAGEBUILDER_LONG_DAYS":"Days","COM_RSPAGEBUILDER_LONG_HOUR":"Hour","COM_RSPAGEBUILDER_LONG_HOURS":"Hours","COM_RSPAGEBUILDER_LONG_MINUTE":"Minute","COM_RSPAGEBUILDER_LONG_MINUTES":"Minutes","COM_RSPAGEBUILDER_LONG_SECOND":"Second","COM_RSPAGEBUILDER_LONG_SECONDS":"Seconds","COM_RSPAGEBUILDER_SHORT_DAYS":"D","COM_RSPAGEBUILDER_SHORT_HOURS":"H","COM_RSPAGEBUILDER_SHORT_MINUTES":"M","COM_RSPAGEBUILDER_SHORT_SECONDS":"S"}}</script>
 	<script src="/media/jui/js/jquery.min.js?12eacec2196dcb708b35ddbf8fd1dfe2"></script>
@@ -391,7 +395,6 @@ window.ezb = window.eb = {
 </div></div>
 </div></div>
 </li>
-<!-- OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO -->
 <li class="jux-menu-item-133">
 <a class="" href="/index.php/schulleben/archiv"   ><div class='jux-menu-item-wrapper'><div class='jux-menu-item-title'><span>Archiv</span></div></div></a>
 </li>
@@ -445,21 +448,24 @@ window.ezb = window.eb = {
                   var itemid = 101;
                   $('ul.level0 .jux-menu-item-'+itemid).addClass('active');
               });
-            </script>     
+            </script>
 					</div>
 				</nav>
 						
 			  <div class="row-fluid">
 					<main id="content" role="main" class="span12">
 					<!-- Begin Content -->
-          <div>
+          <div class="info-button info-button-selected">
             Lorem
           </div>
-          <div>
+          <div class="info-button">
             Ipsum
           </div>
-          <div>
+          <div class="info-button">
             Dolor
+          </div>
+          <div id="content">
+
           </div>
 					<!--  End Content  -->
           <div><div>
