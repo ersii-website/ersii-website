@@ -80,6 +80,12 @@
       margin: 20px 20px 0 20px;
     }
 
+    #info-buttons i {
+      display: block;
+      font-size: 50px;
+      margin: 0 auto 10px auto;
+    }
+
     #info-content {
       background-color: #FFFFFF;
       border: 2px solid #097A18;
@@ -89,12 +95,6 @@
       display: block;
       margin-top: -10px;
       font-size: 18px;
-    }
-
-    .info-icon {
-      display: block;
-      font-size: 50px;
-      margin: 0 auto 10px auto;
     }
 	</style>
   <script>
@@ -508,17 +508,17 @@ window.ezb = window.eb = {
 					  <!-- Begin Content -->
             <div id="info-buttons">
               <div id="info-button-1" class="info-button-selected" onclick="setInfoContent(1)">
-                <i class="fas fa-child info-icon"></i>
+                <i class="fas fa-child"></i>
                 Infos für Schüler
               </div>
               <div id="info-button-2" onclick="setInfoContent(2)">
                 <i class="fa-solid fa-people"></i>
                 <i class="fas fa-child"></i>
-                <i class="fas fa-people info-icon"></i>
+                <i class="fas fa-people"></i>
                 Infos für Eltern
               </div>
               <div id="info-button-3" onclick="setInfoContent(3)">
-                <i class="fas fa-chalkboard-user info-icon"></i>
+                <i class="fas fa-chalkboard-user"></i>
                 Infos zum Schulleben
               </div>
             </div>
