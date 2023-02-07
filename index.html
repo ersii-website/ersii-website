@@ -161,6 +161,19 @@
       document.getElementById("info-content-3").setAttribute("hidden", "hidden");
       document.getElementById("info-content-" + num).removeAttribute("hidden");
     }
+    
+    function setInfoSubContent(num) {
+      document.getElementById("info-sub-button-1").className = "";
+      document.getElementById("info-sub-button-2").className = "";
+      document.getElementById("info-sub-button-3").className = "";
+      document.getElementById("info-sub-button-4").className = "";
+      document.getElementById("info-sub-button-" + num).className = "info-sub-button-selected";
+      document.getElementById("info-sub-content-1").setAttribute("hidden", "hidden");
+      document.getElementById("info-sub-content-2").setAttribute("hidden", "hidden");
+      document.getElementById("info-sub-content-3").setAttribute("hidden", "hidden");
+      document.getElementById("info-sub-content-4").setAttribute("hidden", "hidden");
+      document.getElementById("info-sub-content-" + num).removeAttribute("hidden");
+    }
   </script>
 	<script type="application/json" class="joomla-script-options new">{"csrf.token":"90fdbb8c0c912ec594e3c884dedbc70b","system.paths":{"root":"","base":""},"joomla.jtext":{"COM_RSPAGEBUILDER_COUNTDOWN_TIMER_EXPIRED":"Countdown Timer expired.","WARNING":"Warnung","COM_RSPAGEBUILDER_LONG_DAY":"Day","COM_RSPAGEBUILDER_LONG_DAYS":"Days","COM_RSPAGEBUILDER_LONG_HOUR":"Hour","COM_RSPAGEBUILDER_LONG_HOURS":"Hours","COM_RSPAGEBUILDER_LONG_MINUTE":"Minute","COM_RSPAGEBUILDER_LONG_MINUTES":"Minutes","COM_RSPAGEBUILDER_LONG_SECOND":"Second","COM_RSPAGEBUILDER_LONG_SECONDS":"Seconds","COM_RSPAGEBUILDER_SHORT_DAYS":"D","COM_RSPAGEBUILDER_SHORT_HOURS":"H","COM_RSPAGEBUILDER_SHORT_MINUTES":"M","COM_RSPAGEBUILDER_SHORT_SECONDS":"S"}}</script>
 	<script src="/media/jui/js/jquery.min.js?12eacec2196dcb708b35ddbf8fd1dfe2"></script>
@@ -576,16 +589,16 @@ window.ezb = window.eb = {
             <div id="info-content">
               <div id="info-content-1">
                 <div id="info-sub-buttons">
-                  <div id="info-sub-button-1" class="info-button-selected" onclick="setInfoContent(1)">
+                  <div id="info-sub-button-1" class="info-sub-button-selected" onclick="setInfoSubContent(1)">
                     Jahrgang 5/6
                   </div>
-                  <div id="info-sub-button-2" onclick="setInfoContent(2)">
+                  <div id="info-sub-button-2" onclick="setInfoSubContent(2)">
                     Jahrgang 7/8
                   </div>
-                  <div id="info-sub-button-3" onclick="setInfoContent(3)">
+                  <div id="info-sub-button-3" onclick="setInfoSubContent(3)">
                     Jahrgang 9/10
                   </div>
-                  <div id="info-sub-button-4" onclick="setInfoContent(3)">
+                  <div id="info-sub-button-4" onclick="setInfoSubContent(4)">
                     Jahrgang 11/12
                   </div>
                 </div>
