@@ -1,0 +1,83 @@
+# Query: dropdown
+# ContextLines: 1
+
+45 Ergebnisse - 1 Datei
+
+index.html:
+   47      .nav-list > .active > a:hover,
+   48:     .dropdown-menu li > a:hover,
+   49:     .dropdown-menu .active > a,
+   50:     .dropdown-menu .active > a:hover,
+   51      .nav-pills > .active > a,
+
+  252  </li>
+  253: <li class="jux-dropdown jux-mega hasChild mega-align-left jux-menu-item-108">
+  254: <a class=" dropdown-toggle" href="/index.php/schulgemeinde"    ><div class='jux-menu-item-wrapper'><div class='jux-menu-item-title'><span>Schulgemeinde</span></div><i class="jux-caret fa fa-angle-down"></i></div></a>
+  255: <div class="jux-nav-child jux-dropdown-menu jux-mega"  ><div class="mega-dropdown-inner">
+  256  <div class="row-wrap"><div class="row-fluid sortable-col">
+
+  264  </li>
+  265: <li class="jux-dropdown-submenu jux-mega hasChild mega-align-left jux-menu-item-114">
+  266  <span class=" separator"><div class='jux-menu-item-wrapper'><div class='jux-menu-item-title'><span>Personal</span></div><i class="jux-caret fa fa-angle-right"></i></div></span>
+  267: <div class="jux-nav-child jux-dropdown-menu jux-mega"  ><div class="mega-dropdown-inner">
+  268  <div class="row-wrap"><div class="row-fluid sortable-col">
+
+  296  </li>
+  297: <li class="jux-dropdown-submenu jux-mega hasChild mega-align-left jux-menu-item-118">
+  298  <span class=" separator"><div class='jux-menu-item-wrapper'><div class='jux-menu-item-title'><span>Gremien</span></div><i class="jux-caret fa fa-angle-right"></i></div></span>
+  299: <div class="jux-nav-child jux-dropdown-menu jux-mega"  ><div class="mega-dropdown-inner">
+  300  <div class="row-wrap"><div class="row-fluid sortable-col">
+
+  330  </li>
+  331: <li class="jux-dropdown jux-mega hasChild mega-align-left jux-menu-item-109">
+  332: <a class=" dropdown-toggle" href="/index.php/schulleben"    ><div class='jux-menu-item-wrapper'><div class='jux-menu-item-title'><span>Schulleben</span></div><i class="jux-caret fa fa-angle-down"></i></div></a>
+  333: <div class="jux-nav-child jux-dropdown-menu jux-mega"  ><div class="mega-dropdown-inner">
+  334  <div class="row-wrap"><div class="row-fluid sortable-col">
+
+  345  </li>
+  346: <li class="jux-dropdown-submenu jux-mega hasChild mega-align-left jux-menu-item-569">
+  347  <a class="" href="/index.php/schulleben/informationen-fuer-die-jahrgaenge"   ><div class='jux-menu-item-wrapper'><div class='jux-menu-item-title'><span>Informationen für die Jahrgänge</span></div><i class="jux-caret fa fa-angle-right"></i></div></a>
+  348: <div class="jux-nav-child jux-dropdown-menu jux-mega"  ><div class="mega-dropdown-inner">
+  349  <div class="row-wrap"><div class="row-fluid sortable-col">
+
+  376  </li>
+  377: <li class="jux-dropdown jux-mega hasChild mega-align-left jux-menu-item-112">
+  378: <a class=" dropdown-toggle" href="/index.php/service"    ><div class='jux-menu-item-wrapper'><div class='jux-menu-item-title'><span>Service</span></div><i class="jux-caret fa fa-angle-down"></i></div></a>
+  379: <div class="jux-nav-child jux-dropdown-menu jux-mega"  ><div class="mega-dropdown-inner">
+  380  <div class="row-wrap"><div class="row-fluid sortable-col">
+
+  416  </li>
+  417: <li class="jux-dropdown mega-align-left jux-menu-item-108">
+  418: <a class=" dropdown-toggle" href="/index.php/schulgemeinde"    ><div class='jux-menu-item-wrapper'><div class='jux-menu-item-title'><span>Schulgemeinde</span></div><i class="jux-caret fa fa-angle-right"></i></div></a>
+  419: <div class="jux-nav-child jux-dropdown-menu jux-mega span12"><div class="mega-dropdown-inner">
+  420  <div class=" mega-col-nav mega-col-block"><div class="mega-inner">
+
+  427  </li>
+  428: <li class="jux-dropdown-submenu mega-align-left jux-menu-item-114">
+  429  <span class=" separator"><div class='jux-menu-item-wrapper'><div class='jux-menu-item-title'><span>Personal</span></div><i class="jux-caret fa fa-angle-right"></i></div></span>
+  430: <div class="jux-nav-child jux-dropdown-menu jux-mega span12"><div class="mega-dropdown-inner">
+  431  <div class=" mega-col-nav mega-col-block"><div class="mega-inner">
+
+  457  </li>
+  458: <li class="jux-dropdown-submenu mega-align-left jux-menu-item-118">
+  459  <span class=" separator"><div class='jux-menu-item-wrapper'><div class='jux-menu-item-title'><span>Gremien</span></div><i class="jux-caret fa fa-angle-right"></i></div></span>
+  460: <div class="jux-nav-child jux-dropdown-menu jux-mega span12"><div class="mega-dropdown-inner">
+  461  <div class=" mega-col-nav mega-col-block"><div class="mega-inner">
+
+  488  </li>
+  489: <li class="jux-dropdown mega-align-left jux-menu-item-109">
+  490: <a class=" dropdown-toggle" href="/index.php/schulleben"    ><div class='jux-menu-item-wrapper'><div class='jux-menu-item-title'><span>Schulleben</span></div><i class="jux-caret fa fa-angle-right"></i></div></a>
+  491: <div class="jux-nav-child jux-dropdown-menu jux-mega span12"><div class="mega-dropdown-inner">
+  492  <div class=" mega-col-nav mega-col-block"><div class="mega-inner">
+
+  502  </li>
+  503: <li class="jux-dropdown-submenu mega-align-left jux-menu-item-569">
+  504  <a class="" href="/index.php/schulleben/informationen-fuer-die-jahrgaenge"   ><div class='jux-menu-item-wrapper'><div class='jux-menu-item-title'><span>Informationen für die Jahrgänge</span></div><i class="jux-caret fa fa-angle-right"></i></div></a>
+  505: <div class="jux-nav-child jux-dropdown-menu jux-mega span12"><div class="mega-dropdown-inner">
+  506  <div class=" mega-col-nav mega-col-block"><div class="mega-inner">
+
+  530  </li>
+  531: <li class="jux-dropdown mega-align-left jux-menu-item-112">
+  532: <a class=" dropdown-toggle" href="/index.php/service"    ><div class='jux-menu-item-wrapper'><div class='jux-menu-item-title'><span>Service</span></div><i class="jux-caret fa fa-angle-right"></i></div></a>
+  533: <div class="jux-nav-child jux-dropdown-menu jux-mega span12"><div class="mega-dropdown-inner">
+  534  <div class=" mega-col-nav mega-col-block"><div class="mega-inner">
