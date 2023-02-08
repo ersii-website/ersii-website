@@ -1,2 +1,2 @@
 ## ERSII-Website
-Eine Unterseite mit unwichtigen Informationen für Kindern, die auf die schule wächseln wollen, und ihre Eltern
+Eine Unterseite mit unwichtigen Informationen für Kinder, die auf die schule wächseln wollen, und ihre Eltern
