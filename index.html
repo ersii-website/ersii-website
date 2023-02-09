@@ -157,7 +157,7 @@
       font-size: 18px;
     }
 
-    .info-button {
+    .info-button, .info-dynamic-button {
       background-color: #097A1822;
       color: #097A18;
       border: 2px solid #097A18;
@@ -169,7 +169,12 @@
       text-align: center;
     }
 
-    .info-button:hover {
+    .info-dynamic-button {
+      padding: 10px 20px;
+      width: fit-content;
+    }
+
+    .info-button:hover, .info-dynamic-button:hover {
       background-color: #097A1811;
       color: #097A18;
     }
@@ -768,16 +773,16 @@ window.ezb = window.eb = {
                   <summary>
                     Corona Hinweise
                   </summary>
-                  <a class="info-button" target="_blank" href="https://kultusministerium.hessen.de/sites/kultusministerium.hessen.de/files/2022-02/kurzanleitung_antigen-selbsttest_-_safecare_biotech.pdf">
+                  <a class="info-dynamic-button" target="_blank" href="https://kultusministerium.hessen.de/sites/kultusministerium.hessen.de/files/2022-02/kurzanleitung_antigen-selbsttest_-_safecare_biotech.pdf">
                     Anleitung Coronaselbsttest
                   </a>
-                  <a class="info-button" target="_blank" href="https://kultusministerium.hessen.de/sites/kultusministerium.hessen.de/files/2022-11/2022-11-23_hygieneplan.pdf">
+                  <a class="info-dynamic-button" target="_blank" href="https://kultusministerium.hessen.de/sites/kultusministerium.hessen.de/files/2022-11/2022-11-23_hygieneplan.pdf">
                     Hygieneplan
                   </a>
-                  <a class="info-button" target="_blank" href="https://kultusministerium.hessen.de/schulsystem/corona/dokumente-zur-unterrichtsorganisation">
+                  <a class="info-dynamic-button" target="_blank" href="https://kultusministerium.hessen.de/schulsystem/corona/dokumente-zur-unterrichtsorganisation">
                     Unterrichtsorganisation
                   </a>
-                  <a class="info-button" target="_blank" href="https://kultusministerium.hessen.de/sites/kultusministerium.hessen.de/files/2022-12/wegweiser_zum_umgang_mit_corona.pdf">
+                  <a class="info-dynamic-button" target="_blank" href="https://kultusministerium.hessen.de/sites/kultusministerium.hessen.de/files/2022-12/wegweiser_zum_umgang_mit_corona.pdf">
                     Umgang mit Corona
                   </a>
                 </details>
